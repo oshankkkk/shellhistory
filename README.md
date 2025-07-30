@@ -30,7 +30,11 @@ yes, the return type is at the end of the variable
 Also in go you should specifiy the main function ( old python habbits lol)  
 In Golang package is required, go has this package mindset thing and i think its cruical for ist compiler to have that so ye.
 
-
+Error handling in go is very simple, the functions that can fail yk like readers n stuff returns
+2 values.the actual value and the Error
+If the functions works fine the error value is nill(null in go) so you can just put a If statement
+to check if the error is null if yes no error very good, else error have very very bad.
+WTF, ERROR HANDLING COULD BE THIS SIMPLE BUT OTHERS JUST FUCKING HAD TO USE TRY BLOCKS AND CATCHES AND THOSE PASSING THE EXCEPTION TO A HIGHER FUCTION THING JAVA DOES
 # Figureing out how to make the actual CLI tool
 
 I wanna get my hands on the shell history
