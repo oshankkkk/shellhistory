@@ -35,6 +35,22 @@ Error handling in go is very simple, the functions that can fail yk like readers
 If the functions works fine the error value is nill(null in go) so you can just put a If statement
 to check if the error is null if yes no error very good, else error have very very bad.
 WTF, ERROR HANDLING COULD BE THIS SIMPLE BUT OTHERS JUST FUCKING HAD TO USE TRY BLOCKS AND CATCHES AND THOSE PASSING THE EXCEPTION TO A HIGHER FUCTION THING JAVA DOES
+
+In go we get the user input through os module, like system in in java
+i think i should prolly check why these are so similar
+
+Anyway we read theterminal input thorugh os.sdin method thing,like and a reader is returned by bufio which is the input out module i think   
+in java we make a scanner with system in ryt, same here we make a reader( or whatever you wanna call it) that accespts whats returned to it by the bufio.Reader(os.sdin)
+
+File reading
+there are 2 ways of reading files in Golang and both are done by the os package 
+
+we can read the whole file and pass it to the memory, and we print it to the terminal 
+The other way is to only read line by line yk how we used to do it, with os package we use Open method and then we to open a file the file data object is returned and we can print it line by line using a for loop
+
+to read a file in go we use the os module ii 
+
+Also btw in go "" are use in string literals like yk "helo world" and '' are used in rune literals like '\n' n stuff 
 # Figureing out how to make the actual CLI tool
 
 I wanna get my hands on the shell history
