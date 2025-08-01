@@ -47,10 +47,16 @@ there are 2 ways of reading files in Golang and both are done by the os package
 
 we can read the whole file and pass it to the memory, and we print it to the terminal 
 The other way is to only read line by line yk how we used to do it, with os package we use Open method and then we to open a file the file data object is returned and we can print it line by line using a for loop
+The file reading stuff are done by the Os package, cause it interacts with the os which has the file systems n stuff
 
-to read a file in go we use the os module ii 
+Also btw in go "" are use in string literals like yk "helo world" and '' are used in rune literals 
+like '\n' n stuff
 
-Also btw in go "" are use in string literals like yk "helo world" and '' are used in rune literals like '\n' n stuff 
+File handling in golang is pretty simple when  you understand it like in python when you open a file in write mode it automatically creates a file it its not there and overwrites it when used more than once write.
+All those file management tasks like making the file it its new and overwriting it is done by one mode 
+See in places like this you can see golangs main theme, it makes everything simple, like instead of puting all those features on 1 Golangs write mode which is walled WRONLY( its technially a constant flag thing in the os package) and it only writes stuff in a like, it doesnt make a new file or erase the old data and write a new one instead it has other flags for those too. 
+I tbh think go is a better lanugage to learn as your 1st lanugage than python but this might be a pretty shalow take since ive only being playing around with this or less than a week.
+
 # Figureing out how to make the actual CLI tool
 
 I wanna get my hands on the shell history
@@ -58,4 +64,16 @@ My code should go to the OS user folder in home and then check for the bash_hist
 (what if the user put it in a different folder or renamed it? well fix that in future)
 After that i should read the file 
 When user types it should chose the matches of in the file and display like a autocorrect
+listen to the user inputs, bash doesnt have event listeners, bash only knows what the user types after the \n through thats standed input
+whats a Deamon, its a fancy way of says background process(i dont think there much more to it tbh)
+its mostly a stuff like event listners yk somthing thats always runnig and that the user doesnt see or like have direct access to
+im gonna write a that listen to what the user types and matches it with whats in the shellhistory
+To make a daemon in Go we just have to make a go file and make infinete loop that runs for ever.
+We dont print in that file (cause then the user will know the file is running
+aka user ta horen thama run karanne file eka)
+So basically any file that the user doesnt know that runs is a DAEMON.
+We make a text file call a log file, then we put what ever we are supposed to print ( but cant cause the user is watching) to that file, this helps in debugging stuff. Thats a Deamon in a nutshell.
+
+
+
 
