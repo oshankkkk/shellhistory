@@ -57,6 +57,19 @@ All those file management tasks like making the file it its new and overwriting 
 See in places like this you can see golangs main theme, it makes everything simple, like instead of puting all those features on 1 Golangs write mode which is walled WRONLY( its technially a constant flag thing in the os package) and it only writes stuff in a like, it doesnt make a new file or erase the old data and write a new one instead it has other flags for those too. 
 I tbh think go is a better lanugage to learn as your 1st lanugage than python but this might be a pretty shalow take since ive only being playing around with this or less than a week.
 
+Go has 4 types of numbers
+ints floats uints(only postive ints) complex numbers(whatever that means)
+yk in java theres int and long ryt, like a thresshold for ints same goes here theres int32 int64
+float64..
+this is good for you if your worried bout memeory 
+00010 ten but more memrmory
+010 also ten but less memory
+
+const doesnt work with :=
+
+why is go doesnt have OOP and not OOP heavy
+the structs in Go is kinda like  js objects eveywhere thing but we also do the proper 
+classes shit 
 # Figureing out how to make the actual CLI tool
 
 I wanna get my hands on the shell history
@@ -73,7 +86,18 @@ We dont print in that file (cause then the user will know the file is running
 aka user ta horen thama run karanne file eka)
 So basically any file that the user doesnt know that runs is a DAEMON.
 We make a text file call a log file, then we put what ever we are supposed to print ( but cant cause the user is watching) to that file, this helps in debugging stuff. Thats a Deamon in a nutshell.
+Making a fuzzy finder on my own to search and display the cmds
+WTF is a fuzzy finder and finder and how it works 
 
 
-
+# Learning DSA
+A fuzzy finder uses a very complex algorithm to make it work with typos n stuff so imma start with the prefix finder 1st.
+Its not fuzzy like if yo spell dev, it wil say developer but if you spell del it wont casue it just search for the words starting with that on memeory and it cant deal with typos
+Okay lets learn bout trees then.
+whats a tree it is a data srtucture that has values and those value has nother values in a hierachyal way thing
+like the top most part or the like head of the tree is the root, thats where eveything branch off to.
+Then trees just branch naturally 
+the values of the trees are called nodes,and there are  parent nodes and child nodes and nodes that dont have any children are called nodes leaves. 
+There is a tree type called trie also called a prefix trie and this is not a recursive one like most other trees.(technially you can make  it using recursion but no need to it will only slow it down )
+I dont understand why so imma look that up 
 
