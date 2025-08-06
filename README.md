@@ -1,3 +1,5 @@
+# understanding Golang
+
 1st tut about installing go, did it through dnf ( linux pacman)
 Then print helo world using Go
 In Go theres a built in package.json thing yk like pom.xml in java to manage the dependancies.
@@ -68,6 +70,13 @@ const doesnt work with :=
 why is go doesnt have OOP and not OOP heavy
 the structs in Go is kinda like  js objects eveywhere thing but we also do the proper 
 classes shit 
+
+so classes and shit in go is a bit weird cause like go doesnt have classes it has structs which is like a type, if your learning go after C++ or somthing its fermilare but since the most lowlevlish lanugage that ive done so far is java (which is not lowlevel its type saftly thing makes it look like one) it was pretty alien for me.
+
+so in go we 1st make a struct which is a type like yk in java we make types in classes so its kinda like that and what we do is we  make that type and after that we make a class 
+and after that we make a function and we are gonna make this function act like a constructor yk intilize the values passed to it to the fields of the struct.
+to make a method what we are gonna do is that we are gonna connect the struct with that function using a lil method called i cant remember it rn. ITs caled a method reciever.  
+Also btw in golang if you pass something to something its always copied so you gotta work with pointers. 
 # Figureing out how to make the actual CLI tool
 
 I wanna get my hands on the shell history
