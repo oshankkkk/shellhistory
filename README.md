@@ -1,5 +1,3 @@
-# Understanding and using Golang
-went to google and search golang and then when to the Docs
 1st tut about installing go, did it through dnf ( linux pacman)
 Then print helo world using Go
 In Go theres a built in package.json thing yk like pom.xml in java to manage the dependancies.
@@ -100,4 +98,12 @@ Then trees just branch naturally
 the values of the trees are called nodes,and there are  parent nodes and child nodes and nodes that dont have any children are called nodes leaves. 
 There is a tree type called trie also called a prefix trie and this is not a recursive one like most other trees.(technially you can make  it using recursion but no need to it will only slow it down )
 I dont understand why so imma look that up 
+
+
+maps vs list:
+maps are key based so its import when you gotta indivaltly recognize the data
+list they just have any index so so they dont have a indivital name or anything, so if you car bout that then use list
+ 
+maps are fast when searching compared to list, O(1) when searching with a key and in a list its just O(n) for everything thats linear which is not good when the data is incerasing cause its linear(duh)
+we use List when the order matter and if you need duplicated, cause in a map you cant have duplicates. 
 
